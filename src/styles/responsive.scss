@@ -1,0 +1,86 @@
+@media screen and (min-width: 480px) {
+    .hero {
+        height: 380px;
+        .hero-content {
+            align-items: center;
+
+            p {
+                text-align: center;
+                max-width: 800px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        max-height: 50px;
+
+        .container {
+            .nav-menu {
+                display: flex;
+                flex-direction: row;
+                width: max-content;
+                padding: 0;
+                background-color: transparent;
+                align-items: center;
+                gap: 40px;
+                a{
+                    width: 85px;
+                    text-align: center;
+                }
+
+            }
+
+            .hamburger {
+                display: none;
+            }
+        }
+    }
+
+    .restolist .title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .detail-resto-top {
+        max-width: 1200px;
+        width: 100%;
+        margin: 20px auto 0;
+        padding: 0 15px;
+        flex-direction: row;
+
+        &-img {
+            min-width: 50%;
+            width: 50%;
+            box-shadow: var(--shadow-2);
+            border-radius: 8px;
+        }
+
+        &-content {
+
+            .description {
+                display: block;
+                height: max-content;
+            }
+
+            .readmore {
+                display: none;
+            }
+        }
+    }
+
+    .detail-resto-bottom {
+        .review {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .offline-alert {
+        max-width: 500px;
+
+    }
+    resto-card{
+        max-width: 567px;
+    }
+}

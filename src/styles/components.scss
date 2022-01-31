@@ -1,0 +1,112 @@
+resto-card {
+    box-shadow: var(--shadow);
+    padding: 0 15px 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    overflow: hidden;
+
+    .resto-img {
+        width: calc(100% + 30px);
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .resto-content {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        width: 100%;
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                font-size: 13px;
+                opacity: 0.9;
+            }
+
+            .rate {
+                display: flex;
+                gap: 6px;
+
+                .i-icon{
+                    color: var(--primary);
+                }
+            }
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .description {
+            text-align: justify;
+            width: 100%;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        a {
+            width: 100%;
+        }
+    }
+}
+
+menu-list {
+    height: max-content;
+    background-color: #FDFDFE;
+    border-radius: 4px;
+    box-shadow: var(--shadow-2);
+    padding: 10px 15px 15px;
+
+    b {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    hr {
+        margin: 10px 0;
+        opacity: 0.4;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+review-card {
+    max-width: 100%;
+    height: max-content;
+    border-radius: 4px;
+    box-shadow: var(--shadow-2);
+    padding: 10px 15px;
+
+    p.name {
+        font-weight: 600;
+    }
+
+    p.date {
+        font-size: 0.8em;
+        opacity: 0.9;
+        margin: 4px 0 8px;
+    }
+
+    p.content {
+        width: 100%;
+    }
+}

@@ -1,0 +1,35 @@
+
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: -468px 0
+    }
+
+    100% {
+        background-position: 468px 0
+    }
+}
+
+@keyframes showalertfromtop {
+    from {
+        transform: translateY(calc(-100% - 80px));
+    }
+}
+
+@keyframes showalertfrombottom {
+    from {
+        transform: translateY(calc(100% + 300px)) scale(0.8);
+
+    }
+}
+
+@keyframes iIconSpin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
