@@ -10,7 +10,7 @@
 **Luwe App** adalah website katalog restoran dengan fitur PWA + Testing and Performance Optimized, yang merupakan Submission Keas Menjadi Front-End Web Developer Expert pada platform [Dicoding](https://www.dicoding.com/)
 
 
-## Features
+## 🚀 Features
 
 Adapun fitur yang ada dalam website ini yang sekaligus kriteria kelulusan kelas Menjadi Front-End Web Developer Expert Dicoding adalah sebagai berikut
 - Integration Test
